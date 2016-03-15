@@ -14,6 +14,15 @@
      limitations under the License.
 -->
 <resources>
+    
+    <!-- Custom Colors -->
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="actionbar_unselected_text_color">#ffa1d6f6</color>
+    <color name="dialer_theme_color">#ff1788e4</color>
+    <color name="dialer_theme_color_dark">#ff1678cf</color>
+    <color name="primary_color">#ff1788e4</color>
+    <color name="primary_color_dark">#ff1678cf</color>
+    <color name="tab_selected_underline_color">#ffd96415</color>
 
     <color name="quickcontact_name_detail_background">#66000000</color>
     <color name="quickcontact_entry_sub_header_text_color">#737373</color>

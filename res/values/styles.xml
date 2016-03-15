@@ -167,13 +167,11 @@
     </style>
 
     <!-- Text style for tabs. -->
-    <style name="ContactsActionBarTabTextStyle"
-           parent="android:style/Widget.Material.Light.ActionBar.TabText">
-        <item name="android:textColor">@color/tab_text_color</item>
+    <style name="ContactsActionBarTabTextStyle" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
         <item name="android:textSize">@dimen/tab_text_size</item>
+         <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:fontFamily">@string/tab_font_family</item>
-        <item name="android:elevation">0dp</item>
-        <item name="android:textStyle">bold</item>
     </style>
 
     <!-- Action bar overflow menu icon. -->
